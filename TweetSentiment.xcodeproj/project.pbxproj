@@ -13,6 +13,7 @@
 		C077A09923FEC39D00EE8C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C077A09723FEC39D00EE8C22 /* Main.storyboard */; };
 		C077A09B23FEC3A200EE8C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C077A09A23FEC3A200EE8C22 /* Assets.xcassets */; };
 		C077A09E23FEC3A200EE8C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C077A09C23FEC3A200EE8C22 /* LaunchScreen.storyboard */; };
+		C077A0A623FED44D00EE8C22 /* sentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C077A0A523FED44D00EE8C22 /* sentimentClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C077A09A23FEC3A200EE8C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C077A09D23FEC3A200EE8C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C077A09F23FEC3A200EE8C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C077A0A523FED44D00EE8C22 /* sentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = sentimentClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				C077A09323FEC39D00EE8C22 /* SceneDelegate.swift */,
 				C077A09523FEC39D00EE8C22 /* ViewController.swift */,
 				C077A09723FEC39D00EE8C22 /* Main.storyboard */,
+				C077A0A523FED44D00EE8C22 /* sentimentClassifier.mlmodel */,
 				C077A09A23FEC3A200EE8C22 /* Assets.xcassets */,
 				C077A09C23FEC3A200EE8C22 /* LaunchScreen.storyboard */,
 				C077A09F23FEC3A200EE8C22 /* Info.plist */,
@@ -141,6 +144,7 @@
 				C077A09623FEC39D00EE8C22 /* ViewController.swift in Sources */,
 				C077A09223FEC39D00EE8C22 /* AppDelegate.swift in Sources */,
 				C077A09423FEC39D00EE8C22 /* SceneDelegate.swift in Sources */,
+				C077A0A623FED44D00EE8C22 /* sentimentClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
