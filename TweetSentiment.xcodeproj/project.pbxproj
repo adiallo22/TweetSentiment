@@ -16,6 +16,7 @@
 		C077A0A623FED44D00EE8C22 /* sentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C077A0A523FED44D00EE8C22 /* sentimentClassifier.mlmodel */; };
 		C077A0BA23FEEEFD00EE8C22 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C077A0B023FEED8C00EE8C22 /* SwifteriOS.framework */; };
 		C077A0BB23FEEEFD00EE8C22 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C077A0B023FEED8C00EE8C22 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C077A0C4240013B800EE8C22 /* Secret.plist in Resources */ = {isa = PBXBuildFile; fileRef = C077A0C3240013B800EE8C22 /* Secret.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		C077A09F23FEC3A200EE8C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C077A0A523FED44D00EE8C22 /* sentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = sentimentClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
 		C077A0A723FEED8B00EE8C22 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		C077A0C3240013B800EE8C22 /* Secret.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secret.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				C077A09123FEC39D00EE8C22 /* AppDelegate.swift */,
 				C077A09323FEC39D00EE8C22 /* SceneDelegate.swift */,
 				C077A09523FEC39D00EE8C22 /* ViewController.swift */,
+				C077A0C3240013B800EE8C22 /* Secret.plist */,
 				C077A09723FEC39D00EE8C22 /* Main.storyboard */,
 				C077A0A523FED44D00EE8C22 /* sentimentClassifier.mlmodel */,
 				C077A09A23FEC3A200EE8C22 /* Assets.xcassets */,
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C077A0C4240013B800EE8C22 /* Secret.plist in Resources */,
 				C077A09E23FEC3A200EE8C22 /* LaunchScreen.storyboard in Resources */,
 				C077A09B23FEC3A200EE8C22 /* Assets.xcassets in Resources */,
 				C077A09923FEC39D00EE8C22 /* Main.storyboard in Resources */,
