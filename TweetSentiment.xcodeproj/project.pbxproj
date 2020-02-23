@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -163,7 +163,6 @@
 				5B2F6BAEE27EF9FA0AA3B418 /* Pods-TweetSentiment.debug.xcconfig */,
 				30C17599C57B4C13898021CB /* Pods-TweetSentiment.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
