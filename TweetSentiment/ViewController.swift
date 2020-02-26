@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     
     func fetch(with inputed : String) {
         
-            swifter.searchTweet(using: inputed, lang: "en", count: max, tweetMode: .extended, success: { (results, metadata) in
+            swifter.searchTweet(using: "\(inputed)", lang: "en", count: max, tweetMode: .extended, success: { (results, metadata) in
                 var tweets = [sentimentClassifierInput]()
                 for i in 0...self.max-1 {
                     if let tweet = results[i]["full_text"].string {
